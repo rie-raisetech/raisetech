@@ -1,0 +1,23 @@
+.p-menu {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.p-menu__block {
+    display: none;
+    @media #{$screen02} {
+        display: block;
+    }
+}
+
+.p-menu__button {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    margin-left: auto;
+    @media #{$screen01} {
+        font-size: 34px;
+    }
+}
