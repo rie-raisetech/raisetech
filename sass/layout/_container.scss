@@ -1,0 +1,22 @@
+@use "../foundation/base";
+@use "../foundation/variables";
+@use "../foundation/mixins";
+
+.l-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+    @media #{$screen01} {
+        height: auto;
+        flex-direction: row;
+        padding: 40px;
+        gap: 57px;
+    }
+    @media #{$screen02} {
+        width: 100%;
+        padding: 120px;
+        gap: 81px;
+    }
+}

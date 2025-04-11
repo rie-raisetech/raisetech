@@ -1,28 +1,30 @@
 @use "../foundation/base";
 @use "../foundation/variables";
+@use "../foundation/mixins";
 
 .l-header {
-    position: relative;
+    position: fixed;
+    top: 0;
+    right: 0;
     width:100%;
     height: 215px;
     background-color: $offwhite;
+    position: relative;
     @media #{$screen01} {
         height: 217px;
     }
+  }
+
+.l-header__contents {
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    @media #{$screen02} {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 4%;
+        padding-right: 2%;
+        width: 100%;
+    }
 }
 
-.l-header__title {
-    font-family: "Roboto";
-    font-size: 40px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    margin-top: 43px;
-    @media #{$screen01} {
-        margin-top: 40px;
-    }
-    @media #{screen02} {
-        font-size: 64px;
-        margin-top: 66px;
-    }
-}

@@ -1,23 +1,41 @@
-.p-menu {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-}
+@use "../../foundation/mixins";
+@use "../../foundation/base";
+@use "../../foundation/variables";
 
-.p-menu__block {
+
+
+  .p-menu {
     display: none;
-    @media #{$screen02} {
+    @media #{$screen02}{
         display: block;
-    }
-}
+        color: $textblack;
+        }
+  }
 
-.p-menu__button {
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 20px;
-    display: flex;
+  .p-menu__button {
+    @include fontsize(20);
     margin-left: auto;
     @media #{$screen01} {
-        font-size: 34px;
+        @include fontsize(34);
     }
+    @media #{$screen02} {
+        margin-left: 46px;
+        margin-top: 84px;
+        margin-bottom: 90px;
+    }
+    }
+  
+.p-menu__category {
+    font-family: 'M+ PLUS 1p';
+    @include fontsize(24);
+    font-weight: 700;
+    margin-left: 46px;
+    margin-bottom: 32px;
+}
+
+.p-menu__item {
+    font-family: 'M+ PLUS 1p';
+    @include fontsize(20);
+    margin-left: 66px;
+    margin-bottom: 20px;
 }

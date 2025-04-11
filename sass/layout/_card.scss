@@ -1,0 +1,14 @@
+@use "../foundation/base";
+@use "../foundation/variables";
+@use "../foundation/mixins";
+
+.l-card {
+    position: relative;
+    width: 100%;
+    height: 285px;
+    @media #{$screen02} {
+        height: 530px;
+        width: auto;
+    }
+}
+

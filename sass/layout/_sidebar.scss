@@ -1,0 +1,16 @@
+@use "../foundation/base";
+@use "../foundation/variables";
+@use "../foundation/mixins";
+
+.l-sidebar {
+    @media #{$screen02} {
+        background-color: $gray;
+        top: 0;
+        right: 0;
+        width: 19%;
+        order: 2;
+        height: auto;
+    }
+  }
+  
+  

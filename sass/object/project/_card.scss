@@ -1,0 +1,33 @@
+@use "../../foundation/base";
+@use "../../foundation/variables";
+@use "../../foundation/mixins";
+
+.p-card__inner {
+    position: absolute;
+    background-image: url(../../../images/card_image.jpg);
+    height: 285px;
+    @media #{$screen01} {
+        background-image: url(../../../images/card_image2.jpg);
+    }
+    @media #{$screen02} {
+        background-image: url(../../../images/card_image3.jpg);
+        height: 530px;
+    }
+}
+
+.p-card__title {
+    position: absolute;
+    font-family: 'M+ PLUS 1p';
+    @include fontsize(36);
+    font-weight: 700;
+    color: $white;
+    margin-left: 25px;
+    margin-top: 122px;
+    @media #{$screen01} {
+        margin-left: 86px;        
+    }
+    @media #{$screen02} {
+        @include fontsize(40);
+        margin-top: 234px;
+    }
+}
