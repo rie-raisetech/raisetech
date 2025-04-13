@@ -6,14 +6,17 @@
 @import "./sass/layout/layout";
 @import "./sass/layout/header";
 @import "./sass/layout/sidebar";
-@import "./sass/layout/card";
-@import "./sass/layout/container";
-@import "./sass/layout/location";
 @import "./sass/layout/footer";
 
 
+
+@import "./sass/object/component/card";
+@import "./sass/object/component/container";
+@import "./sass/object/component/ocverlay";
+@import "./sass/object/component/location";
 @import "./sass/object/component/button";
 @import "./sass/object/component/inner";
+
 
 
 @import "./sass/object/project/header";

@@ -2,14 +2,6 @@
 @use "../../foundation/variables";
 @use "../../foundation/mixins";
 
-.p-overlay-group {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 16px;
-    position: relative;
-    }
-    
 .p-overlay {
     background-color: rgba(255,255,255,0.8);
     color: $black_o;

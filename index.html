@@ -6,14 +6,14 @@
         <meta name="description" content="ハンバーガーショップ">
         <title>Hamburger shop</title>
         <link href="./sass/foundation/ress.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=M+PLUS+1p&display=swap" rel="stylesheet">
-       
+        <link rel="icon" href="images/favicon.png" type="image/png">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <section class="l-layout">
+    <div class="l-layout">
         
             <aside class="l-sidebar js-sidebar">
                 <div class="l-sidebar__close js-close"></div>
@@ -22,7 +22,7 @@
                         <span>Menu</span>
                     </button>
                     <div class="p-menu__block">
-                    <h5 class="p-menu__category">バーガー</h5>
+                    <h1 class="p-menu__category">バーガー</h1>
                     <ul class="p-menu__list">
                         <li class="p-menu__item"><a href="#">ハンバーガー</a></li>
                         <li class="p-menu__item"><a href="#">チーズバーガー</a></li>
@@ -32,14 +32,14 @@
                         <li class="p-menu__item"><a href="#">ベーコンバーガー</a></li>
                         <li class="p-menu__item"><a href="#">チキンバーガー</a></li>
                     </ul>
-                    <h5 class="p-menu__category">サイド</h5>
+                    <h1 class="p-menu__category">サイド</h1>
                     <ul class="p-menu__list">
                         <li class="p-menu__item"><a href="#">ポテト</a></li>
                         <li class="p-menu__item"><a href="#">サラダ</a></li>
                         <li class="p-menu__item"><a href="#">ナゲット</a></li>
                         <li class="p-menu__item"><a href="#">コーン</a></li>
                     </ul>
-                    <h5 class="p-menu__category">ドリンク</h5>
+                    <h1 class="p-menu__category">ドリンク</h1>
                     <ul class="p-menu__list">
                         <li class="p-menu__item"><a href="#">コーラ</a></li>
                         <li class="p-menu__item"><a href="#">ファンタ</a></li>
@@ -62,30 +62,30 @@
             <h2 class="p-header__title">Hamburger</h2>
             
             <form class="p-search" action="サイトURL" method="get">
-                <input type="search" name="search" class="p-search__input" placeholder="検索ワードを入力" value="ここに検索ワード">
+                <input type="search" name="search" class="p-search__input" placeholder="検索ワードを入力" value="">
                 <button type="submit" class="p-search__button">検索</button>
             </form>
             </div>
         </header>
 
     <main class="l-main">
-        <div class="l-card">
+        <div class="c-card">
             <div class="c-inner p-card__inner"></div>
             <h3 class="p-card__title">ダミーサイト</h3>
         </div>
 
-        <div class="l-container">
+        <div class="c-container">
             <div class="c-inner p-container--top">
                 <div class="p-container__block">
-                <h1 class="p-container__title">Take Out</h1>
+                <h4 class="p-container__title">Take Out</h4>
                 <div class="p-container__overlay-wrapper">
-                <div class="p-overlay-group">
+                <div class="c-overlay">
                 <div class="p-overlay">
-                    <h6 class="p-overlay__title">Take Out</h6>
+                    <h5 class="p-overlay__title">Take Out</h5>
                     <p class="p-overlay__text">当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
                 </div>
                 <div class="p-overlay">
-                    <h6 class="p-overlay__title">Take Out</h6>
+                    <h5 class="p-overlay__title">Take Out</h5>
                     <p class="p-overlay__text">当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
                 </div>
                 </div>
@@ -94,37 +94,38 @@
             </div>
             <div class="c-inner p-container--bottom">
                 <div class="p-container__block">
-                <h1 class="p-container__title">Eat In</h1>
+                <h4 class="p-container__title">Eat In</h4>
                 <div class="p-container__overlay-wrapper">
-                <div class="p-overlay-group">
+                <div class="c-overlay">
                 <div class="p-overlay">
-                    <h6 class="p-overlay__title">Eat In</h6>
+                    <h5 class="p-overlay__title">Eat In</h5>
                     <p class="p-overlay__text">店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p>
                 </div>
                 <div class="p-overlay">
-                    <h6 class="p-overlay__title">Eat In</h6>
+                    <h5 class="p-overlay__title">Eat In</h5>
                     <p class1="p-overlay__text">店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p>
                 </div>
                 </div>
                 </div>
                 </div>
             </div>
+        </div>
     </main>
-        <section class="l-location">
+        <section class="c-location">
             <div class="c-inner p-location__inner">
             <div class="p-location__block">
-            <h4 class="p-location__title">見出しが入ります</h4>
+            <h6 class="p-location__title">見出しが入ります</h6>
             <p class="p-location__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります</p>
             </div></div>
         </section>
-
     </article>
-    </section>
+    
+    </div>
 
     <footer class="l-footer">
         <div class="c-inner p-footer__inner">
             <div class="p-footer__block">
-            <p class="p-footer__information">ショップ情報｜ヒストリー</p>
+            <p class="p-footer__information"><a href="">ショップ情報</a>｜<a href="">ヒストリー</a></p>
             <small class="p-footer__copy">Copyright: RaiseTech</small>
             </div>
         </div>

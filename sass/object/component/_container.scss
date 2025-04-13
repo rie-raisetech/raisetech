@@ -1,8 +1,8 @@
-@use "../foundation/base";
-@use "../foundation/variables";
-@use "../foundation/mixins";
+@use "../../foundation/base";
+@use "../../foundation/variables";
+@use "../../foundation/mixins";
 
-.l-container {
+.c-container {
     position: relative;
     display: flex;
     flex-direction: column;

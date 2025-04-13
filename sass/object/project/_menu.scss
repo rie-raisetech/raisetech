@@ -4,11 +4,11 @@
 
 
 
-  .p-menu {
+.p-menu {
     color: $textblack;
-  }
+}
 
-  .p-menu__button {
+.p-menu__button {
     display: none;
     @media #{$screen02} {
         display: block;
