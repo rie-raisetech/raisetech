@@ -1,0 +1,44 @@
+@use "../../foundation/base";
+@use "../../foundation/variables";
+@use "../../foundation/mixins";
+
+.p-about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 200px;
+    width: 100%;
+    font-family: 'M+ PLUS 1p';
+    color: $black02;
+    background-color: $white;
+    margin-top: 0;
+}
+
+.p-about__title {
+    position: relative;
+    @include fontsize(28);
+    font-weight: 700;
+    margin: 32px 22px 25px 22px;
+    @media #{$screen01} {
+        @include fontsize(36);
+        margin: 39px 42px 20px 42px;
+    }
+    @media #{$screen02} {
+        margin: 63px 100px 20px 100px;
+    }
+}
+
+.p-about__text {
+    position: relative;
+    @include fontsize(16);
+    line-height: 24px;
+    margin: 0 18px 19px 22px;
+    @media #{$screen02} {
+        line-height: 100%;
+        margin: 0 35px 37px 42px;
+    }
+    @media #{$screen02} {
+        margin: 0 100px 70px 100px;
+    }
+}

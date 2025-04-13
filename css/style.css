@@ -300,51 +300,6 @@ img {
   display: block;
 }
 
-.c-card {
-  position: relative;
-  width: 100%;
-  height: 285px;
-}
-@media screen and (min-width: 1024px) {
-  .c-card {
-    height: 530px;
-    width: auto;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .c-card--archive {
-    height: 239px;
-  }
-}
-
-body {
-  font-family: "Roboto", "M+ PLUS 1p", sans-serif;
-  height: auto;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 .c-container {
   position: relative;
   display: flex;
@@ -656,6 +611,17 @@ img {
   display: block;
 }
 
+.p-card {
+  position: relative;
+  width: 100%;
+  height: 285px;
+}
+@media screen and (min-width: 1024px) {
+  .p-card {
+    height: 530px;
+  }
+}
+
 .p-card__inner {
   position: absolute;
   background-image: url(../../../images/card_image.jpg);
@@ -717,6 +683,14 @@ img {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 1024px) {
+  .p-card--archive {
+    height: 239px;
+    position: relative;
+    width: 100%;
+  }
 }
 
 .p-card__block {
@@ -1166,6 +1140,85 @@ img {
 @media screen and (min-width: 1024px) {
   .p-footer__copy {
     margin-left: 55px;
+  }
+}
+
+body {
+  font-family: "Roboto", "M+ PLUS 1p", sans-serif;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.p-about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 200px;
+  width: 100%;
+  font-family: "M+ PLUS 1p";
+  color: #3C2A10;
+  background-color: #FFFFFF;
+  margin-top: 0;
+}
+
+.p-about__title {
+  position: relative;
+  font-size: 28px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 32px 22px 25px 22px;
+}
+@media screen and (min-width: 768px) {
+  .p-about__title {
+    font-size: 36px;
+    font-size: 2.25rem;
+    margin: 39px 42px 20px 42px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .p-about__title {
+    margin: 63px 100px 20px 100px;
+  }
+}
+
+.p-about__text {
+  position: relative;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 24px;
+  margin: 0 18px 19px 22px;
+}
+@media screen and (min-width: 1024px) {
+  .p-about__text {
+    line-height: 100%;
+    margin: 0 35px 37px 42px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .p-about__text {
+    margin: 0 100px 70px 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */
