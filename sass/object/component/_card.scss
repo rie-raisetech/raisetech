@@ -11,3 +11,9 @@
         width: auto;
     }
 }
+
+.c-card--archive {
+    @media #{$screen02} {
+        height: 239px;
+    }
+}

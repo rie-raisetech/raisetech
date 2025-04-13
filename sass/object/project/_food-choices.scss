@@ -2,16 +2,16 @@
 @use "../../foundation/variables";
 @use "../../foundation/mixins";
 
-.p-container--top {
+.p-food-choices--top {
     background-image: url(../../../images/container1.jpg);
 }
 
-.p-container--bottom {
+.p-food-choices--bottom {
     background-image: url(../../../images/container2.jpg);
 }
 
-.p-container--top,
-.p-container--bottom {
+.p-food-choices--top,
+.p-food-choices--bottom {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -20,7 +20,7 @@
     margin-bottom: 20px;
 }
 
-.p-container__title {
+.p-food-choices__title {
     font-family: 'Roboto';
     @include fontsize(41);
     color: $textgray;
@@ -55,12 +55,12 @@
 
 }
 
-.p-container__block {
+.p-food-choices__block {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
 
-.p-container__overlay-wrapper {
+.p-food-choices__overlay-wrapper {
     margin-top: auto;
 }

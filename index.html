@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="ハンバーガーショップ">
-        <title>Hamburger shop</title>
-        <link href="./sass/foundation/ress.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=M+PLUS+1p&display=swap" rel="stylesheet">
-        <link rel="icon" href="images/favicon.png" type="image/png">
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ハンバーガーショップ">
+    <title>Hamburger shop</title>
+    <link href="./sass/foundation/ress.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=M+PLUS+1p&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
     <div class="l-layout">
-        
-            <aside class="l-sidebar js-sidebar">
-                <div class="l-sidebar__close js-close"></div>
-                <nav class="p-menu">
-                    <button class="c-button p-menu__button">
-                        <span>Menu</span>
-                    </button>
-                    <div class="p-menu__block">
+
+        <aside class="l-sidebar js-sidebar">
+            <div class="l-sidebar__close js-close"></div>
+            <nav class="p-menu">
+                <button class="c-button p-menu__button">
+                    <span>Menu</span>
+                </button>
+                <div class="p-menu__block">
                     <h1 class="p-menu__category">バーガー</h1>
                     <ul class="p-menu__list">
                         <li class="p-menu__item"><a href="#">ハンバーガー</a></li>
@@ -48,90 +51,96 @@
                         <li class="p-menu__item"><a href="#">紅茶（ice/Hot）</a></li>
                         <li class="p-menu__item"><a href="#">コーヒー（ice/Hot）</a></li>
                     </ul>
+                </div>
+            </nav>
+        </aside>
+        <div class="js-overlay"></div>
+
+        <article class="l-layout__main__contents">
+            <header class="l-header">
+                <div class="l-header__contents">
+                    <button class="c-button p-header__button js-hamburger">
+                        <span>Menu</span>
+                    </button>
+                    <h2 class="p-header__title">Hamburger</h2>
+
+                    <form class="p-search" action="サイトURL" method="get">
+                        <input type="search" name="search" class="p-search__input" placeholder="検索ワードを入力" value="">
+                        <button type="submit" class="p-search__button">検索</button>
+                    </form>
+                </div>
+            </header>
+
+            <main class="l-main">
+                <div class="c-card">
+                    <div class="c-inner p-card__inner"></div>
+                    <h3 class="p-card__title">ダミーサイト</h3>
+                </div>
+
+                <div class="c-container">
+                    <div class="c-inner p-food-choices--top">
+                        <div class="p-food-choices__block">
+                            <h4 class="p-food-choices__title">Take Out</h4>
+                            <div class="p-food-choices__overlay-wrapper">
+                                <div class="c-overlay">
+                                    <div class="p-overlay">
+                                        <h5 class="p-overlay__title">Take Out</h5>
+                                        <p class="p-overlay__text">当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています
+                                        </p>
+                                    </div>
+                                    <div class="p-overlay">
+                                        <h5 class="p-overlay__title">Take Out</h5>
+                                        <p class="p-overlay__text">当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </nav>
-            </aside>
-            <div class="js-overlay"></div>
+                    <div class="c-inner p-food-choices--bottom">
+                        <div class="p-food-choices__block">
+                            <h4 class="p-food-choices__title">Eat In</h4>
+                            <div class="p-food-choices__overlay-wrapper">
+                                <div class="c-overlay">
+                                    <div class="p-overlay">
+                                        <h5 class="p-overlay__title">Eat In</h5>
+                                        <p class="p-overlay__text">
+                                            店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p>
+                                    </div>
+                                    <div class="p-overlay">
+                                        <h5 class="p-overlay__title">Eat In</h5>
+                                        <p class1="p-overlay__text">
+                                            店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <section class="c-location">
+                <div class="c-inner p-location__inner">
+                    <div class="p-location__block">
+                        <h6 class="p-location__title">見出しが入ります</h6>
+                        <p class="p-location__text">
+                            テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります</p>
+                    </div>
+                </div>
+            </section>
+        </article>
 
-    <article class="l-layout__main__contents">  
-        <header class="l-header">
-            <div class="l-header__contents">
-                <button class="c-button p-header__button js-hamburger">
-                    <span>Menu</span>
-                </button>
-            <h2 class="p-header__title">Hamburger</h2>
-            
-            <form class="p-search" action="サイトURL" method="get">
-                <input type="search" name="search" class="p-search__input" placeholder="検索ワードを入力" value="">
-                <button type="submit" class="p-search__button">検索</button>
-            </form>
-            </div>
-        </header>
-
-    <main class="l-main">
-        <div class="c-card">
-            <div class="c-inner p-card__inner"></div>
-            <h3 class="p-card__title">ダミーサイト</h3>
-        </div>
-
-        <div class="c-container">
-            <div class="c-inner p-container--top">
-                <div class="p-container__block">
-                <h4 class="p-container__title">Take Out</h4>
-                <div class="p-container__overlay-wrapper">
-                <div class="c-overlay">
-                <div class="p-overlay">
-                    <h5 class="p-overlay__title">Take Out</h5>
-                    <p class="p-overlay__text">当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
-                </div>
-                <div class="p-overlay">
-                    <h5 class="p-overlay__title">Take Out</h5>
-                    <p class="p-overlay__text">当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
-                </div>
-                </div>
-                </div>
-                </div>
-            </div>
-            <div class="c-inner p-container--bottom">
-                <div class="p-container__block">
-                <h4 class="p-container__title">Eat In</h4>
-                <div class="p-container__overlay-wrapper">
-                <div class="c-overlay">
-                <div class="p-overlay">
-                    <h5 class="p-overlay__title">Eat In</h5>
-                    <p class="p-overlay__text">店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p>
-                </div>
-                <div class="p-overlay">
-                    <h5 class="p-overlay__title">Eat In</h5>
-                    <p class1="p-overlay__text">店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p>
-                </div>
-                </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </main>
-        <section class="c-location">
-            <div class="c-inner p-location__inner">
-            <div class="p-location__block">
-            <h6 class="p-location__title">見出しが入ります</h6>
-            <p class="p-location__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります</p>
-            </div></div>
-        </section>
-    </article>
-    
     </div>
 
     <footer class="l-footer">
         <div class="c-inner p-footer__inner">
             <div class="p-footer__block">
-            <p class="p-footer__information"><a href="">ショップ情報</a>｜<a href="">ヒストリー</a></p>
-            <small class="p-footer__copy">Copyright: RaiseTech</small>
+                <p class="p-footer__information"><a href="">ショップ情報</a>｜<a href="">ヒストリー</a></p>
+                <small class="p-footer__copy">Copyright: RaiseTech</small>
             </div>
         </div>
     </footer>
-    
-    <script src="./main.js"></script>
-    </body>
-    
+
+    <script src="./js/main.js"></script>
+</body>
+
 </html>

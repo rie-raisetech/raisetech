@@ -28,7 +28,7 @@
     background-image: url(../../../images/search.svg);
     background-repeat: no-repeat;
     background-position: 5px center;
-    padding-left: 35px;
+    padding-left: 45px;
     @media #{$screen01} {
         width: 396px;
         height: 46px;
@@ -47,6 +47,11 @@
     background-color: $lightgray;
     @include fontsize(16);
     font-weight: bold;
+    transition: opacity 0.3s ease;
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
     @media #{$screen01} {
         width: 136px;
         height: 46px;
