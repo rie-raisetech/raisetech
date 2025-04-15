@@ -49,6 +49,7 @@
     }
     @media #{$screen02} {
         background-image: url(../../../images/card_archive3.jpg);
+        height: 239px;
     }
     &::before {
         content: '';
@@ -65,22 +66,19 @@
 .p-card--archive {
     @media #{$screen02} {
         height: 239px;
-        position: relative;
         width: 100%;
     }
 }
 
 
 .p-card__block {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
     top: 106px;
     left: 37px;
     color: $white;
+    padding: 0;
     @media #{$screen01} {
         flex-direction: row;
-        aligin-items: center;
+        align-items: center;
         top: 107px;
         left: 86px;
     }
@@ -94,6 +92,7 @@
     font-family: 'Roboto';
     @include fontsize(36);
     font-weight: 700;
+    margin: 0;
     @media #{$screen01} {
         @include fontsize(60);
     }
@@ -108,8 +107,10 @@
     @media #{$screen01} {
         margin-left: 19px;
         margin-top: 23px;
+        margin-bottom: 23px;
     }
     @media #{$screen02} {
         margin-top: 31px;
+        margin-bottom: 15px;
     }
 }

@@ -1,0 +1,83 @@
+@use "../../foundation/mixins";
+@use "../../foundation/base";
+@use "../../foundation/variables";
+
+.p-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 62px 20px 32px 20px;
+    font-family: 'M+ PLUS 1p';
+    @include fontsize(16);
+    color: $textblack;
+    @media #{$screen01} {
+        font-family: 'Roboto';
+        font-weight: 700;
+        @include fontsize(16);
+        justify-content: center;
+        gap: 15px;
+        margin-top: 106px;
+    }
+    @media #{$screen02} {
+        margin-top: 150px;
+        margin-bottom: 64px;
+    }
+}
+
+.p-pagination--search {
+    margin-top: 71px;
+    margin-bottom: 30px;
+    @media #{$screen01} {
+        margin-top: 103px;
+    }
+    @media #{$screen02} {
+        margin-top: 150px;
+        margin-bottom: 60px;
+    }
+}
+
+.p-pagination__item {   
+    display: none;
+    @media #{$screen01} {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        border: 1px solid $textblack;
+    }
+}
+
+.p-pagination__nav {
+    gap: 9px;
+}
+
+.p-pagination__icon--prev {
+    transform: translateY(2px);
+    margin-right: 2px;
+}
+
+.p-pagination__icon--next {
+    display: block;
+    transform: rotate(180deg) translateY(5px);
+    transform-origin: center;
+}
+
+.p-pagination__text {
+    @media #{$screen01} {
+        display: none;
+    }
+}
+
+.p-pagination__pagenav {
+    display: none;
+    @media #{$screen01} {
+        display: block;
+    }
+}
+
+.p-pagination__item--current {
+    background-color: $brown;
+    color: $white;
+}

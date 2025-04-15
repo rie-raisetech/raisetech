@@ -3,11 +3,8 @@
 @use "../../foundation/mixins";
 
 .p-textbox__block {
-    display: flex;
-    flex-direction: column;
     gap: 16px;
     padding: 16px;
-    position: relative;
 }
 
 .p-textbox {

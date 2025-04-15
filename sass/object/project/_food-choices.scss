@@ -2,6 +2,22 @@
 @use "../../foundation/variables";
 @use "../../foundation/mixins";
 
+.p-food-choices__wrapper {
+    padding: 20px;
+    height: 100%;
+    @media #{$screen01} {
+        height: auto;
+        flex-direction: row;
+        padding: 40px;
+        gap: 57px;
+    }
+    @media #{$screen02} {
+        width: 100%;
+        padding: 120px;
+        gap: 81px;
+    }
+}
+
 .p-food-choices--top {
     background-image: url(../../../images/container1.jpg);
 }
@@ -12,9 +28,9 @@
 
 .p-food-choices--top,
 .p-food-choices--bottom {
+    position: relative;
     display: flex;
     flex-direction: column;
-    position: relative;
     min-height: 643px;
     height: auto;
     margin-bottom: 20px;
@@ -56,9 +72,7 @@
 }
 
 .p-food-choices__block {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+   flex-grow: 1;
 }
 
 .p-food-choices__textbox-wrapper {

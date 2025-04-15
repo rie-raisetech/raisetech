@@ -3,18 +3,16 @@
 @import "foundation/variables";
 
 
-@import "layout/layout";
 @import "layout/header";
 @import "layout/sidebar";
 @import "layout/footer";
 
 
-
-
+@import "object/component/layout";
 @import "object/component/container";
 @import "object/component/button";
 @import "object/component/inner";
-
+@import "object/component/flex";
 
 
 @import "object/project/header";
@@ -27,3 +25,5 @@
 @import "object/project/footer";
 
 @import "object/project/about";
+@import "object/project/archive";
+@import "object/project/pagination";

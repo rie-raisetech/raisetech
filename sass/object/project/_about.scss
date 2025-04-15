@@ -3,11 +3,7 @@
 @use "../../foundation/mixins";
 
 .p-about {
-    position: relative;
-    display: flex;
-    flex-direction: column;
     height: auto;
-    min-height: 200px;
     width: 100%;
     font-family: 'M+ PLUS 1p';
     color: $black02;
@@ -33,12 +29,16 @@
     position: relative;
     @include fontsize(16);
     line-height: 24px;
-    margin: 0 18px 19px 22px;
-    @media #{$screen02} {
+    margin: 0 18px 9px 22px;
+    @media #{$screen01} {
         line-height: 100%;
-        margin: 0 35px 37px 42px;
+        margin: 0 35px 27px 42px;
     }
     @media #{$screen02} {
-        margin: 0 100px 70px 100px;
+        margin: 0 100px 55px 100px;
     }
+}
+
+.p-about__text--search {
+    line-height: 100%;
 }

@@ -2,12 +2,6 @@
 @use "../../foundation/variables";
 @use "../../foundation/mixins";
 
-.p-location {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
 .p-location__inner {
     position: relative;
     background-image: url(../../../images/map1.jpg);

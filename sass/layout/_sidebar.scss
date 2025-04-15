@@ -88,15 +88,15 @@
 
 .l-sidebar__close {
     position: absolute;
-    top: 19px;
-    right: 1px;
+    top: 5px;
+    right: 9px;
     width: 35px;
     height: 40px;
     z-index: 10;
     cursor: pointer;
     @media #{$screen01} {
-        top: 33px;
-        right: 15px;
+        top: 17px;
+        right:25px;
         width: 35px;
         height: 40px;
     }
