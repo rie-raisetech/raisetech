@@ -25,10 +25,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 body {
   font-family: "Roboto", "M+ PLUS 1p", sans-serif;
   height: auto;
@@ -56,10 +56,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .l-header {
   position: fixed;
   top: 0;
@@ -117,10 +117,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .l-sidebar {
   height: 100%;
   background-color: #F2EDE9;
@@ -312,10 +312,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .c-container {
   position: relative;
   display: flex;
@@ -369,10 +369,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .p-header__title {
   font-family: "Roboto";
   color: #707070;
@@ -444,10 +444,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .p-menu {
   color: #707070;
 }
@@ -532,10 +532,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .p-search {
   display: flex;
   margin-top: 40px;
@@ -628,10 +628,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .p-card {
   position: relative;
   width: 100%;
@@ -798,10 +798,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .p-food-choices__wrapper {
   padding: 20px;
   height: 100%;
@@ -918,10 +918,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .p-textbox__block {
   gap: 16px;
   padding: 16px;
@@ -979,10 +979,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .p-location__inner {
   position: relative;
   background-image: url(../../../images/map1.jpg);
@@ -1125,10 +1125,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .p-footer__inner {
   background-image: url(../../../images/footer.png);
   position: relative;
@@ -1214,10 +1214,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .p-about {
   height: auto;
   width: 100%;
@@ -1297,10 +1297,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .p-archive__box {
   padding: 10px 20px 10px 20px;
   width: 100%;
@@ -1456,10 +1456,10 @@ img {
   display: block;
 }
 
-* {
+/* * {
   outline: 1px solid red;
 }
-
+  */
 .p-pagination {
   display: flex;
   justify-content: space-between;
