@@ -74,6 +74,10 @@
     border-radius: 999px;
     align-self: center;
     margin-right: 7px;
+    transition: 0.3s;
+    &:hover {
+        opacity: 0.9;
+    }
     @media #{$screen01} {
         margin-left: 7px;
     }

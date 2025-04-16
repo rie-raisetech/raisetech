@@ -77,7 +77,8 @@
     }
 }
 
-.p-pagination__item--current {
+.p-pagination__item:active,
+.p-pagination__item:hover {
     background-color: $brown;
     color: $white;
 }
