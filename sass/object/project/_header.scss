@@ -8,6 +8,9 @@
     @include fontsize(40);
     font-weight: 700;
     margin-top: 43px;
+    &:hover {
+        color: $hover;
+    }
     @media #{$screen01} {
         margin-top: 40px;
     }
@@ -24,6 +27,9 @@
     position: absolute;
     top: 8px;
     right: 8px;
+    &:hover {
+        color: $hover;
+    }
     @media #{$screen01} {
         @include fontsize(34);
         top: 20px;

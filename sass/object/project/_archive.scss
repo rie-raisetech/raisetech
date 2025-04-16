@@ -74,7 +74,7 @@
     border-radius: 999px;
     align-self: center;
     margin-right: 7px;
-    transition: 0.3s;
+    transition: opacity 0.3s ease;
     &:hover {
         opacity: 0.9;
     }
@@ -95,10 +95,9 @@
     object-position: center center;
     @media #{$screen01} {
         width: 50%;
-        height: auto;
-        min-height: 354px;
+        height: 354px;
     }
     @media #{$screen02} {
-        min-height: 471px;
+        height: 471px;
     }
 }

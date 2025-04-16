@@ -10,6 +10,7 @@
 
 .p-menu__button {
     display: none;
+    cursor: default;
     @media #{$screen02} {
         display: block;
         @include fontsize(34);
@@ -41,7 +42,9 @@
         margin-bottom: 48px;
     }
     }
-
+    &:hover {
+        color: $hover02;
+    }
 }
 
 .p-menu__block {
