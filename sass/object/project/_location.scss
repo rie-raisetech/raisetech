@@ -8,6 +8,7 @@
     height: auto;
     min-height: 691px;
     padding-bottom: 40px;
+
     &::before {
         content: '';
         position: absolute;
@@ -15,36 +16,36 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background: linear-gradient(
-            to bottom,
-            rgba(0,0,0,0.55) 0%,
-            rgba(0,0,0,0.55) 50%,
-            rgba(0,0,0,0.3) 50%,
-            rgba(0,0,0,0.3) 100%
-          );
+        background: linear-gradient(to bottom,
+                rgba(0, 0, 0, 0.55) 0%,
+                rgba(0, 0, 0, 0.55) 50%,
+                rgba(0, 0, 0, 0.3) 50%,
+                rgba(0, 0, 0, 0.3) 100%);
         pointer-events: none;
         z-index: 0;
     }
+
     @media #{$screen01} {
         background-image: url(../../../images/map2.jpg);
         min-height: 415px;
+
         &::before {
             content: '';
-            background: rgba(0,0,0,0.55);
-         }
+            background: rgba(0, 0, 0, 0.55);
+        }
     }
+
     @media #{$screen02} {
         background-image: url(../../../images/map3.jpg);
         padding-bottom: 75px;
+
         &::before {
             content: '';
-            background: linear-gradient(
-                to right,
-                rgba(0,0,0,0.55) 0%,
-                rgba(0,0,0,0.55) 61%,
-                rgba(0,0,0,0.3) 61%,
-                rgba(0,0,0,0.3) 100%
-            );
+            background: linear-gradient(to right,
+                    rgba(0, 0, 0, 0.55) 0%,
+                    rgba(0, 0, 0, 0.55) 61%,
+                    rgba(0, 0, 0, 0.3) 61%,
+                    rgba(0, 0, 0, 0.3) 100%);
         }
     }
 }
@@ -56,6 +57,7 @@
     @include fontsize(30);
     margin-top: 0;
     margin-left: 2px;
+
     &::after {
         content: '';
         position: absolute;
@@ -64,10 +66,12 @@
         width: 75px;
         height: 2px;
         background-color: $white;
+
         @media #{$screen02} {
             bottom: -50px;
         }
     }
+
     @media #{$screen02} {
         @include fontsize(36);
     }
@@ -81,6 +85,7 @@
     margin-top: 29px;
     margin-left: 0px;
     margin-right: 0px;
+
     @media #{$screen02} {
         @include fontsize(16);
         margin-top: 109px;
@@ -98,10 +103,12 @@
     z-index: 2;
     color: $white;
     padding-bottom: 40px;
+
     @media #{$screen01} {
         padding-left: 42px;
         margin-right: 29px;
     }
+
     @media #{$screen02} {
         width: 61%;
         top: 86px;
@@ -110,4 +117,3 @@
         margin-bottom: 75px;
     }
 }
-

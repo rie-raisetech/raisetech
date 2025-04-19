@@ -25,7 +25,7 @@
 
     @media #{$screen02} {
         background-image: url(../../../images/card_image3.jpg);
-        
+
     }
 }
 
@@ -65,7 +65,7 @@
 
     @media #{$screen02} {
         background-image: url(../../../images/card_archive3.jpg);
-        
+
     }
 
     &::before {
@@ -164,5 +164,31 @@
 
     @media #{$screen02} {
         margin-top: 213px;
+    }
+}
+
+.p-card__inner--page {
+    background-image: url(../../../images/page1.jpg);
+
+    @media #{$screen01} {
+        background-image: url(../../../images/page2.jpg);
+    }
+
+    @media #{$screen02} {
+        background-image: url(../../../images/page3.jpg);
+    }
+}
+
+.p-card__title--page {
+    margin-top: 93px;
+    margin-left: 45px;
+
+    @media #{$screen01} {
+        margin-top: 215px;
+        margin-left: 86px;
+    }
+
+    @media #{$screen02} {
+        margin-top: 211px;
     }
 }

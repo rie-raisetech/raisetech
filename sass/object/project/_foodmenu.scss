@@ -1,0 +1,53 @@
+.p-foodmenu__list--top {
+    counter-reset: list;
+    display: block;
+    padding-left: 0;
+}
+
+.p-foodmenu__item--top {
+    position: relative;
+    display: flex;
+    counter-increment: list;
+    padding-left: 0.8em;
+}
+
+.p-foodmenu__item--top::before {
+    position: absolute;
+    content: counter(list) ".";
+    left: 0;
+}
+
+.p-foodmenu__list {
+    font-family: 'M+ PLUS 1p';
+    @include fontsize(16);
+}
+
+.p-foodmenu {
+    gap: 17px;
+    margin-top: 33px;
+    margin-bottom: 25px;
+
+    @media #{$screen01} {
+        padding-left: 50px;
+    }
+}
+
+.p-foodmenu__item--second {
+    margin-left: 18px;
+}
+
+.p-foodmenu--top {
+    @media #{$screen01} {
+        margin-top: 61px;
+    }
+
+    @media #{$screen02} {
+        margin-top: 54px;
+    }
+}
+
+.p-foodmenu--bottom {
+    @media #{$screen01} {
+        margin-bottom: 56px;
+    }
+}

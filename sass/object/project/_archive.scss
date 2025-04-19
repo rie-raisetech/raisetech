@@ -7,10 +7,12 @@
     padding: 10px 20px 10px 20px;
     width: 100%;
     height: auto;
+
     @media #{$screen01} {
         flex-direction: row;
         padding: 10px 35px 10px 43px;
     }
+
     @media #{$screen02} {
         padding: 15px 100px 15px 100px;
     }
@@ -24,10 +26,12 @@
     width: 100%;
     height: auto;
     padding: 32px 17px 43px 17px;
+
     @media #{$screen01} {
         padding: 31px 59px 40px 34px;
         width: 50%;
     }
+
     @media #{$screen02} {
         padding: 56px 104px 60px 63px;
     }
@@ -37,6 +41,7 @@
     @include fontsize(20);
     font-weight: 700;
     margin-bottom: 21px;
+
     @media #{$screen02} {
         @include fontsize(36);
         margin-bottom: 44px;
@@ -47,6 +52,7 @@
     @include fontsize(16);
     font-weight: 700;
     margin-bottom: 7px;
+
     @media #{$screen02} {
         @include fontsize(24);
         margin-bottom: 13px;
@@ -56,9 +62,11 @@
 .p-archive__text {
     @include fontsize(16);
     margin-bottom: 40px;
+
     @media #{$screen01} {
         margin-bottom: 45px;
     }
+
     @media #{$screen02} {
         margin-bottom: 60px;
     }
@@ -75,12 +83,15 @@
     align-self: center;
     margin-right: 7px;
     transition: opacity 0.3s ease;
+
     &:hover {
         opacity: 0.9;
     }
+
     @media #{$screen01} {
         margin-left: 7px;
     }
+
     @media #{$screen02} {
         width: 292px;
         height: 76px;
@@ -89,14 +100,14 @@
 }
 
 .p-archive__image {
-    width: auto;
     height: 230px;
-    object-fit: cover;
-    object-position: center center;
+    width: 100%;
+
     @media #{$screen01} {
         width: 50%;
         height: 354px;
     }
+
     @media #{$screen02} {
         height: 471px;
     }

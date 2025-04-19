@@ -1,0 +1,21 @@
+@use "../../foundation/base";
+@use "../../foundation/variables";
+@use "../../foundation/mixins";
+
+.p-codeblock {
+    @include fontsize(16);
+    color: $tagblack;
+    background-color: $backgray;
+    width: 100%;
+    height: 237px;
+    padding: 50px;
+}
+
+.p-codeblock__pre {
+    font-family: 'M+ PLUS 1p';
+}
+
+
+.p-codeblock__code {
+    font-family: 'M+ PLUS 1p';
+}

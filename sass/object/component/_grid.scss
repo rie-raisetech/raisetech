@@ -1,0 +1,12 @@
+.c-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media #{$screen01} {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media #{$screen02} {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

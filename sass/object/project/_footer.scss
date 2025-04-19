@@ -14,9 +14,11 @@
     color: $white;
     font-family: 'M+ PLUS 1p';
     margin-top: 16px;
+
     @media #{$screen01} {
         margin-top: 30px;
     }
+
     @media #{$screen02} {
         margin-top: 41px;
     }
@@ -25,10 +27,12 @@
 .p-footer__information {
     @include fontsize(18);
     margin-bottom: 70px;
+
     @media #{$screen01} {
         @include fontsize(20);
         margin-bottom: 44px;
     }
+
     @media #{$screen02} {
         margin-bottom: 31px;
     }
@@ -37,9 +41,11 @@
 .p-footer__copy {
     @include fontsize(14);
     margin-left: 29px;
+
     @media #{$screen01} {
         margin-left: 54px;
     }
+
     @media #{$screen02} {
         margin-left: 55px;
     }

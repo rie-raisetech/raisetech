@@ -5,12 +5,14 @@
 .p-food-choices__wrapper {
     padding: 20px;
     height: 100%;
+
     @media #{$screen01} {
         height: auto;
         flex-direction: row;
         padding: 40px;
         gap: 57px;
     }
+
     @media #{$screen02} {
         width: 100%;
         padding: 120px;
@@ -44,12 +46,15 @@
     margin-top: 13px;
     position: relative;
     margin-bottom: 25px;
+
     @media #{$screen01} {
         margin-bottom: 30px;
     }
+
     @media #{$screen02} {
         margin-bottom: 50px;
     }
+
     &::after {
         position: absolute;
         content: '';
@@ -58,10 +63,12 @@
         height: 4px;
         width: 33px;
         background-color: $white;
+
         @media #{$screen01} {
             bottom: -25px;
             left: 4px;
         }
+
         @media #{$screen02} {
             width: 63px;
             bottom: -43px;
@@ -72,7 +79,7 @@
 }
 
 .p-food-choices__block {
-   flex-grow: 1;
+    flex-grow: 1;
 }
 
 .p-food-choices__textbox-wrapper {
